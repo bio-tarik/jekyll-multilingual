@@ -7,18 +7,18 @@
 
 # Site settings
 title:
-  en: Your awesome title
-  fr: Votre titre génial
-email: your-email@domain.com
+  en: Jane Doe
+  pt: Jane Doe
+email: bio.tarik@gmail.com
 description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+  en: I'm a Nutritional Therapist based in Dublin
+  pt: Sou uma nutricionista em Dublin
 index:
   en:
-  fr: accueil.html
+  pt: sobre.html
 feed:
   en: /feed.xml
-  fr: /flux.xml
+  pt: /flux.xml
 baseurl: "/jekyll-multilingual" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
