@@ -4,23 +4,19 @@ ref: index
 lang: pt
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Articles</h1>
-
-  <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
-
-</div>
+<section>
+  <div class="imageWrapper">
+    <div class="overlay"></div>
+    <img src="./assets/imgs/home.jpg" alt="">
+  </div>
+  <div class="titleWrapper">
+    <hgroup class="title">
+      <h3>Olá,</h2>
+      <h5>Meu nome é</h4>
+      <h1>Jane Doe</h1>
+      <h5>Sou uma</h4>
+      <h4>Nutricionista</h3>
+      <h5>em Dublin</h4>
+    </hgroup>
+  </div>
+</section>
